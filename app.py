@@ -19,3 +19,15 @@ interface = gr.Interface(
 
 # تشغيل الواجهة
 interface.launch()
+import gradio as gr
+
+def add_hugging_face_link(video_url):
+    return f"<a href='https://huggingface.co/' target='_blank'>Hugging Face</a>, {video_url}"
+
+demo = gr.Interface(
+    fn=add_hugging_face_link,
+    inputs=[gr.Video()],
+    outputs="html"
+)
+
+demo.launch()
