@@ -16,4 +16,5 @@ This project creates a simple web application that displays a variety of quotes 
 To install the necessary libraries, run:
 ```bash
 pip install pandas matplotlib gradio
+## Links
 [Quote Generator - Hugging Face Space](https://huggingface.co/spaces/amaniM/quotes1)
